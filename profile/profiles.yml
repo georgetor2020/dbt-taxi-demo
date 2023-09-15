@@ -1,4 +1,4 @@
-dbt-taxi-demo:
+dbt_taxi_demo:
   target: dev
   outputs:
     dev:

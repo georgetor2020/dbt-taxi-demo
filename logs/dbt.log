@@ -1,0 +1,574 @@
+[0m21:39:06.566936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb121f900d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb124a74520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb124a74d30>]}
+
+
+============================== 21:39:06.574898 | 99d9a197-8335-48a1-bf32-228b72b12180 ==============================
+[0m21:39:06.574898 [info ] [MainThread]: Running with dbt=1.6.1
+[0m21:39:06.577278 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'profile', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/chaitanyavarmamudundi/IdeaProjects/mcv_workshop/dbt-env/git/dbt-taxi-demo/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir profile', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:39:06.938815 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['name']: 'dbt-taxi-demo' does not match '^[^\\d\\W]\\w*$'
+
+Error encountered in /Users/chaitanyavarmamudundi/IdeaProjects/mcv_workshop/dbt-env/git/dbt-taxi-demo/dbt_project.yml
+[0m21:39:06.939826 [debug] [MainThread]: Command `dbt run` failed at 21:39:06.939571 after 0.43 seconds
+[0m21:39:06.940478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb121f900d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb125256130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb125256310>]}
+[0m21:39:06.940981 [debug] [MainThread]: Flushing usage events
+[0m21:39:28.580610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaac790280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaaa5a7a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaaf374d60>]}
+
+
+============================== 21:39:28.585709 | c43ada93-083f-474c-ac6f-6a005fe2533c ==============================
+[0m21:39:28.585709 [info ] [MainThread]: Running with dbt=1.6.1
+[0m21:39:28.586941 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'profile', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/chaitanyavarmamudundi/IdeaProjects/mcv_workshop/dbt-env/git/dbt-taxi-demo/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir profile', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:39:28.882663 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['name']: 'dbt-taxi-demo' does not match '^[^\\d\\W]\\w*$'
+
+Error encountered in /Users/chaitanyavarmamudundi/IdeaProjects/mcv_workshop/dbt-env/git/dbt-taxi-demo/dbt_project.yml
+[0m21:39:28.884817 [debug] [MainThread]: Command `dbt run` failed at 21:39:28.884082 after 0.33 seconds
+[0m21:39:28.885639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaac790280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaafa504c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdaafa504f0>]}
+[0m21:39:28.886474 [debug] [MainThread]: Flushing usage events
+[0m21:40:53.180113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ce0754e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7cdeda7a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ce3374d30>]}
+
+
+============================== 21:40:53.187500 | 02a9833e-bab1-420d-80b0-790bb81f95bb ==============================
+[0m21:40:53.187500 [info ] [MainThread]: Running with dbt=1.6.1
+[0m21:40:53.188493 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/chaitanyavarmamudundi/IdeaProjects/mcv_workshop/dbt-env/git/dbt-taxi-demo/logs', 'profiles_dir': 'profile', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run --profiles-dir profile', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:40:53.486327 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['name']: 'dbt-taxi-demo' does not match '^[^\\d\\W]\\w*$'
+
+Error encountered in /Users/chaitanyavarmamudundi/IdeaProjects/mcv_workshop/dbt-env/git/dbt-taxi-demo/dbt_project.yml
+[0m21:40:53.487228 [debug] [MainThread]: Command `dbt run` failed at 21:40:53.487049 after 0.34 seconds
+[0m21:40:53.487811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ce0754e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ce3a501f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ce3a50160>]}
+[0m21:40:53.488387 [debug] [MainThread]: Flushing usage events
+[0m21:41:30.772401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcac77d0280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcac54b1a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcaca374d60>]}
+
+
+============================== 21:41:30.779344 | 0c3bafda-e9ba-4457-bc54-78df17389960 ==============================
+[0m21:41:30.779344 [info ] [MainThread]: Running with dbt=1.6.1
+[0m21:41:30.780285 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/chaitanyavarmamudundi/IdeaProjects/mcv_workshop/dbt-env/git/dbt-taxi-demo/logs', 'debug': 'False', 'profiles_dir': 'profile', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --profiles-dir profile', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:41:31.216475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcac54b1a30>]}
+[0m21:41:31.240601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacaa59fd0>]}
+[0m21:41:31.241881 [info ] [MainThread]: Registered adapter: glue=1.6.2
+[0m21:41:31.309404 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m21:41:31.324063 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m21:41:31.324603 [debug] [MainThread]: previous checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, current checksum: 3d5db8b971faf99e51fb77c29e14b7fe138b43cd39adbd8f7b77546f6b762907
+[0m21:41:31.325006 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m21:41:31.325426 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m21:41:31.325880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacaa78be0>]}
+[0m21:41:32.739592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacae24f70>]}
+[0m21:41:32.763936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacaae52b0>]}
+[0m21:41:32.764855 [info ] [MainThread]: Found 4 models, 1 source, 0 exposures, 0 metrics, 432 macros, 0 groups, 0 semantic models
+[0m21:41:32.765488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacadc9730>]}
+[0m21:41:32.767629 [info ] [MainThread]: 
+[0m21:41:32.768857 [debug] [MainThread]: Acquiring new glue connection 'master'
+[0m21:41:32.770585 [debug] [ThreadPool]: Acquiring new glue connection 'list_dbt_nyc_metrics'
+[0m21:41:32.771257 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:41:32.772026 [debug] [ThreadPool]: Glue adapter: opening a new glue connection for thread : (2268, 123145395290112)
+[0m21:41:32.772557 [debug] [ThreadPool]: Glue adapter: GlueConnection connect called
+[0m21:41:32.773010 [debug] [ThreadPool]: Glue adapter: No session present, starting one
+[0m21:41:32.773449 [debug] [ThreadPool]: Glue adapter: GlueConnection _start_session called
+[0m21:41:34.026380 [debug] [ThreadPool]: On list_dbt_nyc_metrics: Close
+[0m21:41:34.027164 [debug] [ThreadPool]: Glue adapter: NotImplemented: close
+[0m21:41:34.029450 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_nyc_metrics, now create_dbt_nyc_metrics_dbt_nyc_metrics)
+[0m21:41:34.030714 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:41:37.101454 [debug] [ThreadPool]: On create_dbt_nyc_metrics_dbt_nyc_metrics: Close
+[0m21:41:37.102190 [debug] [ThreadPool]: Glue adapter: NotImplemented: close
+[0m21:41:37.104892 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dbt_nyc_metrics_dbt_nyc_metrics, now list_dbt_nyc_metrics_dbt_nyc_metrics)
+[0m21:41:37.105592 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:41:37.279447 [debug] [ThreadPool]: On list_dbt_nyc_metrics_dbt_nyc_metrics: Close
+[0m21:41:37.280270 [debug] [ThreadPool]: Glue adapter: NotImplemented: close
+[0m21:41:37.281603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacaac36d0>]}
+[0m21:41:37.282415 [debug] [MainThread]: Glue adapter: NotImplemented: add_begin_query
+[0m21:41:37.282984 [debug] [MainThread]: Glue adapter: NotImplemented: commit
+[0m21:41:37.284016 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:41:37.284615 [info ] [MainThread]: 
+[0m21:41:37.292824 [debug] [Thread-1  ]: Began running node model.dbt_taxi_demo.silver_nyctaxi_avg_metrics
+[0m21:41:37.293841 [info ] [Thread-1  ]: 1 of 4 START sql table model dbt_nyc_metrics.silver_nyctaxi_avg_metrics ........ [RUN]
+[0m21:41:37.295588 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_dbt_nyc_metrics_dbt_nyc_metrics, now model.dbt_taxi_demo.silver_nyctaxi_avg_metrics)
+[0m21:41:37.296230 [debug] [Thread-1  ]: Began compiling node model.dbt_taxi_demo.silver_nyctaxi_avg_metrics
+[0m21:41:37.309344 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"
+[0m21:41:37.311130 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.silver_nyctaxi_avg_metrics (compile): 21:41:37.296608 => 21:41:37.310677
+[0m21:41:37.313165 [debug] [Thread-1  ]: Began executing node model.dbt_taxi_demo.silver_nyctaxi_avg_metrics
+[0m21:41:37.336982 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m21:41:37.514193 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:41:37.527313 [debug] [Thread-1  ]: Glue adapter: NotImplemented: add_begin_query
+[0m21:41:37.527849 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"
+[0m21:41:37.528302 [debug] [Thread-1  ]: On model.dbt_taxi_demo.silver_nyctaxi_avg_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */
+
+        SET spark.sql.legacy.allowNonEmptyLocationInCTAS =true
+      
+[0m21:41:38.223392 [debug] [Thread-1  ]: Glue adapter: [elapsed 0.0s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:39.373387 [debug] [Thread-1  ]: Glue adapter: [elapsed 1.6979379653930664s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:40.516612 [debug] [Thread-1  ]: Glue adapter: [elapsed 2.8430190086364746s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:41.665678 [debug] [Thread-1  ]: Glue adapter: [elapsed 3.983489990234375s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:42.808846 [debug] [Thread-1  ]: Glue adapter: [elapsed 5.13282585144043s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:43.957263 [debug] [Thread-1  ]: Glue adapter: [elapsed 6.278179168701172s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:45.344446 [debug] [Thread-1  ]: Glue adapter: [elapsed 7.663022994995117s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:46.927327 [debug] [Thread-1  ]: Glue adapter: [elapsed 8.81645393371582s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:48.074048 [debug] [Thread-1  ]: Glue adapter: [elapsed 10.397397994995117s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:49.223425 [debug] [Thread-1  ]: Glue adapter: [elapsed 11.547348022460938s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:50.359692 [debug] [Thread-1  ]: Glue adapter: [elapsed 12.683953046798706s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:51.501795 [debug] [Thread-1  ]: Glue adapter: [elapsed 13.828680038452148s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:52.652038 [debug] [Thread-1  ]: Glue adapter: [elapsed 14.977711915969849s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:53.801072 [debug] [Thread-1  ]: Glue adapter: [elapsed 16.124129056930542s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:54.947402 [debug] [Thread-1  ]: Glue adapter: [elapsed 17.277236938476562s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:56.108670 [debug] [Thread-1  ]: Glue adapter: [elapsed 18.421658992767334s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:57.258539 [debug] [Thread-1  ]: Glue adapter: [elapsed 19.58327889442444s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:58.398916 [debug] [Thread-1  ]: Glue adapter: [elapsed 20.724089860916138s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in PROVISIONING state
+[0m21:41:59.559146 [debug] [Thread-1  ]: Glue adapter: [elapsed 21.873655080795288s - cursor waiting glue session state to ready for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in READY state
+[0m21:41:59.632188 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:41:59.633116 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:08.539281 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:08.540247 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:08.541055 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:08.541933 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */
+
+        SET spark.sql.legacy.allowNonEmptyLocationInCTAS =true
+      ''')
+[0m21:42:14.986330 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 2, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */\n\n        SET spark.sql.legacy.allowNonEmptyLocationInCTAS =true\n      \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "rowcount": 1, "results": [{"type": "record", "data": {"key": "spark.sql.legacy.allowNonEmptyLocationInCTAS", "value": "true"}}], "description": [{"name": "key", "type": "StringType()"}, {"name": "value", "type": "StringType()"}]}'}, 'ExecutionCount': 2, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742128742, 'CompletedOn': 1694742134449}, 'ResponseMetadata': {'RequestId': '325cc51e-5734-4332-bc73-a91bcfe7e2c3', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:14 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '760', 'connection': 'keep-alive', 'x-amzn-requestid': '325cc51e-5734-4332-bc73-a91bcfe7e2c3'}, 'RetryAttempts': 0}}
+[0m21:42:14.987021 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:14.987506 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:14.987983 [debug] [Thread-1  ]: SQL status: OK in 37.0 seconds
+[0m21:42:15.187656 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:42:15.189906 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"
+[0m21:42:15.190633 [debug] [Thread-1  ]: On model.dbt_taxi_demo.silver_nyctaxi_avg_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */
+drop table if exists dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+[0m21:42:15.259088 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:15.260001 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:16.317476 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:16.318434 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:16.319237 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:16.320182 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */
+drop table if exists dbt_nyc_metrics.silver_nyctaxi_avg_metrics''')
+[0m21:42:17.775355 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 5, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */\ndrop table if exists dbt_nyc_metrics.silver_nyctaxi_avg_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.silver_nyctaxi_avg_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.silver_nyctaxi_avg_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 5, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742136456, 'CompletedOn': 1694742137081}, 'ResponseMetadata': {'RequestId': 'b462ff6e-2da5-4aa4-90ba-d20a9a3f51b9', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:17 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '902', 'connection': 'keep-alive', 'x-amzn-requestid': 'b462ff6e-2da5-4aa4-90ba-d20a9a3f51b9'}, 'RetryAttempts': 0}}
+[0m21:42:17.776402 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:17.777272 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.silver_nyctaxi_avg_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.silver_nyctaxi_avg_metrics", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:42:17.778186 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 5, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */\ndrop table if exists dbt_nyc_metrics.silver_nyctaxi_avg_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.silver_nyctaxi_avg_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.silver_nyctaxi_avg_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 5, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742136456, 'CompletedOn': 1694742137081}, 'ResponseMetadata': {'RequestId': 'b462ff6e-2da5-4aa4-90ba-d20a9a3f51b9', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:17 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '902', 'connection': 'keep-alive', 'x-amzn-requestid': 'b462ff6e-2da5-4aa4-90ba-d20a9a3f51b9'}, 'RetryAttempts': 0}}
+[0m21:42:17.778918 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:17.779547 [debug] [Thread-1  ]: SQL status: OK in 3.0 seconds
+[0m21:42:17.818518 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"
+[0m21:42:17.819618 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"
+[0m21:42:17.820121 [debug] [Thread-1  ]: On model.dbt_taxi_demo.silver_nyctaxi_avg_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */
+
+  
+    create table dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/silver_nyctaxi_avg_metrics/'
+	
+	as
+	
+
+WITH source_avg as (
+    SELECT avg((CAST(tpep_dropoff_datetime as LONG) - CAST(tpep_pickup_datetime as LONG))/60) as avg_duration
+    , avg(passenger_count) as avg_passenger_count 
+    , avg(trip_distance) as avg_trip_distance 
+    , avg(total_amount) as avg_total_amount
+    , year(CAST(tpep_dropoff_datetime as timestamp)) as year
+    , month(CAST(tpep_dropoff_datetime as timestamp)) as month
+    , payment_type as type
+    FROM nyctaxi.tripdata
+    --WHERE year = "2022"
+    WHERE tpep_dropoff_datetime is not null
+    GROUP BY 5, 6, 7
+    --GROUP BY 5
+) 
+SELECT *
+FROM source_avg
+  
+[0m21:42:17.884925 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:17.885850 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:19.726634 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:19.727580 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:19.728225 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:19.728973 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */
+
+  
+    create table dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/silver_nyctaxi_avg_metrics/'
+	
+	as
+	
+
+WITH source_avg as (
+    SELECT avg((CAST(tpep_dropoff_datetime as LONG) - CAST(tpep_pickup_datetime as LONG))/60) as avg_duration
+    , avg(passenger_count) as avg_passenger_count 
+    , avg(trip_distance) as avg_trip_distance 
+    , avg(total_amount) as avg_total_amount
+    , year(CAST(tpep_dropoff_datetime as timestamp)) as year
+    , month(CAST(tpep_dropoff_datetime as timestamp)) as month
+    , payment_type as type
+    FROM nyctaxi.tripdata
+    --WHERE year = "2022"
+    WHERE tpep_dropoff_datetime is not null
+    GROUP BY 5, 6, 7
+    --GROUP BY 5
+) 
+SELECT *
+FROM source_avg
+  ''')
+[0m21:42:39.485269 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 8, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */\n\n  \n    create table dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/silver_nyctaxi_avg_metrics/\'\n\t\n\tas\n\t\n\nWITH source_avg as (\n    SELECT avg((CAST(tpep_dropoff_datetime as LONG) - CAST(tpep_pickup_datetime as LONG))/60) as avg_duration\n    , avg(passenger_count) as avg_passenger_count \n    , avg(trip_distance) as avg_trip_distance \n    , avg(total_amount) as avg_total_amount\n    , year(CAST(tpep_dropoff_datetime as timestamp)) as year\n    , month(CAST(tpep_dropoff_datetime as timestamp)) as month\n    , payment_type as type\n    FROM nyctaxi.tripdata\n    --WHERE year = "2022"\n    WHERE tpep_dropoff_datetime is not null\n    GROUP BY 5, 6, 7\n    --GROUP BY 5\n) \nSELECT *\nFROM source_avg\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.silver_nyctaxi_avg_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/silver_nyctaxi_avg_metrics/\'\\n\\t\\n\\tas\\n\\t\\n\\nWITH source_avg as (\\n    SELECT avg((CAST(tpep_dropoff_datetime as LONG) - CAST(tpep_pickup_datetime as LONG))/60) as avg_duration\\n    , avg(passenger_count) as avg_passenger_count \\n    , avg(trip_distance) as avg_trip_distance \\n    , avg(total_amount) as avg_total_amount\\n    , year(CAST(tpep_dropoff_datetime as timestamp)) as year\\n    , month(CAST(tpep_dropoff_datetime as timestamp)) as month\\n    , payment_type as type\\n    FROM nyctaxi.tripdata\\n    --WHERE year = \\"2022\\"\\n    WHERE tpep_dropoff_datetime is not null\\n    GROUP BY 5, 6, 7\\n    --GROUP BY 5\\n) \\nSELECT *\\nFROM source_avg\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 8, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742139904, 'CompletedOn': 1694742158673}, 'ResponseMetadata': {'RequestId': '667e7232-7985-406a-94f0-1b1227e0998b', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:39 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '2459', 'connection': 'keep-alive', 'x-amzn-requestid': '667e7232-7985-406a-94f0-1b1227e0998b'}, 'RetryAttempts': 0}}
+[0m21:42:39.486460 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:39.487406 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.silver_nyctaxi_avg_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/silver_nyctaxi_avg_metrics/\'\\n\\t\\n\\tas\\n\\t\\n\\nWITH source_avg as (\\n    SELECT avg((CAST(tpep_dropoff_datetime as LONG) - CAST(tpep_pickup_datetime as LONG))/60) as avg_duration\\n    , avg(passenger_count) as avg_passenger_count \\n    , avg(trip_distance) as avg_trip_distance \\n    , avg(total_amount) as avg_total_amount\\n    , year(CAST(tpep_dropoff_datetime as timestamp)) as year\\n    , month(CAST(tpep_dropoff_datetime as timestamp)) as month\\n    , payment_type as type\\n    FROM nyctaxi.tripdata\\n    --WHERE year = \\"2022\\"\\n    WHERE tpep_dropoff_datetime is not null\\n    GROUP BY 5, 6, 7\\n    --GROUP BY 5\\n) \\nSELECT *\\nFROM source_avg\\n  ", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:42:39.488391 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 8, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.silver_nyctaxi_avg_metrics"} */\n\n  \n    create table dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/silver_nyctaxi_avg_metrics/\'\n\t\n\tas\n\t\n\nWITH source_avg as (\n    SELECT avg((CAST(tpep_dropoff_datetime as LONG) - CAST(tpep_pickup_datetime as LONG))/60) as avg_duration\n    , avg(passenger_count) as avg_passenger_count \n    , avg(trip_distance) as avg_trip_distance \n    , avg(total_amount) as avg_total_amount\n    , year(CAST(tpep_dropoff_datetime as timestamp)) as year\n    , month(CAST(tpep_dropoff_datetime as timestamp)) as month\n    , payment_type as type\n    FROM nyctaxi.tripdata\n    --WHERE year = "2022"\n    WHERE tpep_dropoff_datetime is not null\n    GROUP BY 5, 6, 7\n    --GROUP BY 5\n) \nSELECT *\nFROM source_avg\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.silver_nyctaxi_avg_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/silver_nyctaxi_avg_metrics/\'\\n\\t\\n\\tas\\n\\t\\n\\nWITH source_avg as (\\n    SELECT avg((CAST(tpep_dropoff_datetime as LONG) - CAST(tpep_pickup_datetime as LONG))/60) as avg_duration\\n    , avg(passenger_count) as avg_passenger_count \\n    , avg(trip_distance) as avg_trip_distance \\n    , avg(total_amount) as avg_total_amount\\n    , year(CAST(tpep_dropoff_datetime as timestamp)) as year\\n    , month(CAST(tpep_dropoff_datetime as timestamp)) as month\\n    , payment_type as type\\n    FROM nyctaxi.tripdata\\n    --WHERE year = \\"2022\\"\\n    WHERE tpep_dropoff_datetime is not null\\n    GROUP BY 5, 6, 7\\n    --GROUP BY 5\\n) \\nSELECT *\\nFROM source_avg\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 8, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742139904, 'CompletedOn': 1694742158673}, 'ResponseMetadata': {'RequestId': '667e7232-7985-406a-94f0-1b1227e0998b', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:39 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '2459', 'connection': 'keep-alive', 'x-amzn-requestid': '667e7232-7985-406a-94f0-1b1227e0998b'}, 'RetryAttempts': 0}}
+[0m21:42:39.489205 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:39.489840 [debug] [Thread-1  ]: SQL status: OK in 22.0 seconds
+[0m21:42:39.513335 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.silver_nyctaxi_avg_metrics (execute): 21:41:37.314759 => 21:42:39.513093
+[0m21:42:39.513863 [debug] [Thread-1  ]: On model.dbt_taxi_demo.silver_nyctaxi_avg_metrics: ROLLBACK
+[0m21:42:39.514318 [debug] [Thread-1  ]: Glue adapter: NotImplemented: rollback
+[0m21:42:39.514748 [debug] [Thread-1  ]: On model.dbt_taxi_demo.silver_nyctaxi_avg_metrics: Close
+[0m21:42:39.515185 [debug] [Thread-1  ]: Glue adapter: NotImplemented: close
+[0m21:42:39.515985 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcaccef3be0>]}
+[0m21:42:39.516654 [info ] [Thread-1  ]: 1 of 4 OK created sql table model dbt_nyc_metrics.silver_nyctaxi_avg_metrics ... [[32mOK[0m in 62.22s]
+[0m21:42:39.517399 [debug] [Thread-1  ]: Finished running node model.dbt_taxi_demo.silver_nyctaxi_avg_metrics
+[0m21:42:39.524614 [debug] [Thread-1  ]: Began running node model.dbt_taxi_demo.gold_nyctaxi_cost_metrics
+[0m21:42:39.525813 [info ] [Thread-1  ]: 2 of 4 START sql table model dbt_nyc_metrics.gold_nyctaxi_cost_metrics ......... [RUN]
+[0m21:42:39.527376 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.dbt_taxi_demo.silver_nyctaxi_avg_metrics, now model.dbt_taxi_demo.gold_nyctaxi_cost_metrics)
+[0m21:42:39.528129 [debug] [Thread-1  ]: Began compiling node model.dbt_taxi_demo.gold_nyctaxi_cost_metrics
+[0m21:42:39.532841 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"
+[0m21:42:39.534158 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.gold_nyctaxi_cost_metrics (compile): 21:42:39.528596 => 21:42:39.533805
+[0m21:42:39.534693 [debug] [Thread-1  ]: Began executing node model.dbt_taxi_demo.gold_nyctaxi_cost_metrics
+[0m21:42:39.537516 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m21:42:39.726512 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:42:39.933611 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:42:39.935614 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"
+[0m21:42:39.936296 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_cost_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */
+drop table if exists dbt_nyc_metrics.gold_nyctaxi_cost_metrics
+[0m21:42:40.017493 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:40.018413 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:41.683617 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:41.684581 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:41.685381 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:41.686265 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */
+drop table if exists dbt_nyc_metrics.gold_nyctaxi_cost_metrics''')
+[0m21:42:43.296588 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 11, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_cost_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_cost_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_cost_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 11, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742161847, 'CompletedOn': 1694742162174}, 'ResponseMetadata': {'RequestId': 'c5cc3e3f-6744-4880-915e-40fda94127e4', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:43 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '900', 'connection': 'keep-alive', 'x-amzn-requestid': 'c5cc3e3f-6744-4880-915e-40fda94127e4'}, 'RetryAttempts': 0}}
+[0m21:42:43.297581 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:43.298269 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_cost_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_cost_metrics", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:42:43.299032 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 11, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_cost_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_cost_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_cost_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 11, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742161847, 'CompletedOn': 1694742162174}, 'ResponseMetadata': {'RequestId': 'c5cc3e3f-6744-4880-915e-40fda94127e4', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:43 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '900', 'connection': 'keep-alive', 'x-amzn-requestid': 'c5cc3e3f-6744-4880-915e-40fda94127e4'}, 'RetryAttempts': 0}}
+[0m21:42:43.299757 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:43.300387 [debug] [Thread-1  ]: SQL status: OK in 3.0 seconds
+[0m21:42:43.310339 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"
+[0m21:42:43.311419 [debug] [Thread-1  ]: Glue adapter: NotImplemented: add_begin_query
+[0m21:42:43.311978 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"
+[0m21:42:43.312459 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_cost_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */
+
+  
+    create table dbt_nyc_metrics.gold_nyctaxi_cost_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_cost_metrics/'
+	
+	as
+	SELECT (avg_total_amount/avg_trip_distance) as avg_cost_per_distance
+, (avg_total_amount/avg_duration) as avg_cost_per_minute
+, year
+, month 
+, type 
+FROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  
+[0m21:42:43.379727 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:43.380648 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:43.965186 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:43.966132 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:43.966936 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:43.967848 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */
+
+  
+    create table dbt_nyc_metrics.gold_nyctaxi_cost_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_cost_metrics/'
+	
+	as
+	SELECT (avg_total_amount/avg_trip_distance) as avg_cost_per_distance
+, (avg_total_amount/avg_duration) as avg_cost_per_minute
+, year
+, month 
+, type 
+FROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  ''')
+[0m21:42:47.584113 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 14, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */\n\n  \n    create table dbt_nyc_metrics.gold_nyctaxi_cost_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_cost_metrics/\'\n\t\n\tas\n\tSELECT (avg_total_amount/avg_trip_distance) as avg_cost_per_distance\n, (avg_total_amount/avg_duration) as avg_cost_per_minute\n, year\n, month \n, type \nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_cost_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_cost_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_cost_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_total_amount/avg_trip_distance) as avg_cost_per_distance\\n, (avg_total_amount/avg_duration) as avg_cost_per_minute\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 14, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742164083, 'CompletedOn': 1694742167003}, 'ResponseMetadata': {'RequestId': '517eb110-7f23-4620-9690-7020e21bdea4', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:47 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '1631', 'connection': 'keep-alive', 'x-amzn-requestid': '517eb110-7f23-4620-9690-7020e21bdea4'}, 'RetryAttempts': 0}}
+[0m21:42:47.585255 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:47.586175 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_cost_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_cost_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_cost_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_total_amount/avg_trip_distance) as avg_cost_per_distance\\n, (avg_total_amount/avg_duration) as avg_cost_per_minute\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:42:47.587129 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 14, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_cost_metrics"} */\n\n  \n    create table dbt_nyc_metrics.gold_nyctaxi_cost_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_cost_metrics/\'\n\t\n\tas\n\tSELECT (avg_total_amount/avg_trip_distance) as avg_cost_per_distance\n, (avg_total_amount/avg_duration) as avg_cost_per_minute\n, year\n, month \n, type \nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_cost_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_cost_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_cost_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_total_amount/avg_trip_distance) as avg_cost_per_distance\\n, (avg_total_amount/avg_duration) as avg_cost_per_minute\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 14, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742164083, 'CompletedOn': 1694742167003}, 'ResponseMetadata': {'RequestId': '517eb110-7f23-4620-9690-7020e21bdea4', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:47 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '1631', 'connection': 'keep-alive', 'x-amzn-requestid': '517eb110-7f23-4620-9690-7020e21bdea4'}, 'RetryAttempts': 0}}
+[0m21:42:47.587899 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:47.588532 [debug] [Thread-1  ]: SQL status: OK in 4.0 seconds
+[0m21:42:47.592645 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.gold_nyctaxi_cost_metrics (execute): 21:42:39.535065 => 21:42:47.592313
+[0m21:42:47.593301 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_cost_metrics: ROLLBACK
+[0m21:42:47.593821 [debug] [Thread-1  ]: Glue adapter: NotImplemented: rollback
+[0m21:42:47.594321 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_cost_metrics: Close
+[0m21:42:47.594830 [debug] [Thread-1  ]: Glue adapter: NotImplemented: close
+[0m21:42:47.595788 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacae10700>]}
+[0m21:42:47.596540 [info ] [Thread-1  ]: 2 of 4 OK created sql table model dbt_nyc_metrics.gold_nyctaxi_cost_metrics .... [[32mOK[0m in 8.07s]
+[0m21:42:47.597565 [debug] [Thread-1  ]: Finished running node model.dbt_taxi_demo.gold_nyctaxi_cost_metrics
+[0m21:42:47.598257 [debug] [Thread-1  ]: Began running node model.dbt_taxi_demo.gold_nyctaxi_distance_metrics
+[0m21:42:47.598987 [info ] [Thread-1  ]: 3 of 4 START sql table model dbt_nyc_metrics.gold_nyctaxi_distance_metrics ..... [RUN]
+[0m21:42:47.599968 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.dbt_taxi_demo.gold_nyctaxi_cost_metrics, now model.dbt_taxi_demo.gold_nyctaxi_distance_metrics)
+[0m21:42:47.600558 [debug] [Thread-1  ]: Began compiling node model.dbt_taxi_demo.gold_nyctaxi_distance_metrics
+[0m21:42:47.604316 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"
+[0m21:42:47.605260 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.gold_nyctaxi_distance_metrics (compile): 21:42:47.600959 => 21:42:47.605006
+[0m21:42:47.605729 [debug] [Thread-1  ]: Began executing node model.dbt_taxi_demo.gold_nyctaxi_distance_metrics
+[0m21:42:47.608393 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m21:42:47.807944 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:42:48.004923 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:42:48.006945 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"
+[0m21:42:48.007532 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_distance_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */
+drop table if exists dbt_nyc_metrics.gold_nyctaxi_distance_metrics
+[0m21:42:48.064306 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:48.065228 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:48.807179 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:48.808407 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:48.809719 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:48.810469 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */
+drop table if exists dbt_nyc_metrics.gold_nyctaxi_distance_metrics''')
+[0m21:42:50.186928 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 17, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_distance_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_distance_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_distance_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 17, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742168932, 'CompletedOn': 1694742169283}, 'ResponseMetadata': {'RequestId': 'a82571ea-c94c-4b98-9bf5-3ba63c7eeb58', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:50 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '916', 'connection': 'keep-alive', 'x-amzn-requestid': 'a82571ea-c94c-4b98-9bf5-3ba63c7eeb58'}, 'RetryAttempts': 0}}
+[0m21:42:50.187830 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:50.188693 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_distance_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_distance_metrics", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:42:50.189813 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 17, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_distance_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_distance_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_distance_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 17, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742168932, 'CompletedOn': 1694742169283}, 'ResponseMetadata': {'RequestId': 'a82571ea-c94c-4b98-9bf5-3ba63c7eeb58', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:50 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '916', 'connection': 'keep-alive', 'x-amzn-requestid': 'a82571ea-c94c-4b98-9bf5-3ba63c7eeb58'}, 'RetryAttempts': 0}}
+[0m21:42:50.191170 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:50.192835 [debug] [Thread-1  ]: SQL status: OK in 2.0 seconds
+[0m21:42:50.203029 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"
+[0m21:42:50.203928 [debug] [Thread-1  ]: Glue adapter: NotImplemented: add_begin_query
+[0m21:42:50.204385 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"
+[0m21:42:50.204976 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_distance_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */
+
+  
+    create table dbt_nyc_metrics.gold_nyctaxi_distance_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_distance_metrics/'
+	
+	as
+	SELECT (avg_trip_distance/avg_duration) as avg_distance_per_duration
+, year
+, month 
+, type 
+FROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  
+[0m21:42:50.257103 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:50.258032 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:51.954883 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:51.955870 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:51.956682 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:51.957592 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */
+
+  
+    create table dbt_nyc_metrics.gold_nyctaxi_distance_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_distance_metrics/'
+	
+	as
+	SELECT (avg_trip_distance/avg_duration) as avg_distance_per_duration
+, year
+, month 
+, type 
+FROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  ''')
+[0m21:42:54.615790 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 20, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */\n\n  \n    create table dbt_nyc_metrics.gold_nyctaxi_distance_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_distance_metrics/\'\n\t\n\tas\n\tSELECT (avg_trip_distance/avg_duration) as avg_distance_per_duration\n, year\n, month \n, type \nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_distance_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_distance_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_distance_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_trip_distance/avg_duration) as avg_distance_per_duration\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 20, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742172084, 'CompletedOn': 1694742174382}, 'ResponseMetadata': {'RequestId': '6c8e04c3-61b3-4508-be46-e4e3da45e48e', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:54 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '1538', 'connection': 'keep-alive', 'x-amzn-requestid': '6c8e04c3-61b3-4508-be46-e4e3da45e48e'}, 'RetryAttempts': 0}}
+[0m21:42:54.616894 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:54.617807 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_distance_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_distance_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_distance_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_trip_distance/avg_duration) as avg_distance_per_duration\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:42:54.618721 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 20, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_distance_metrics"} */\n\n  \n    create table dbt_nyc_metrics.gold_nyctaxi_distance_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_distance_metrics/\'\n\t\n\tas\n\tSELECT (avg_trip_distance/avg_duration) as avg_distance_per_duration\n, year\n, month \n, type \nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_distance_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_distance_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_distance_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_trip_distance/avg_duration) as avg_distance_per_duration\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 20, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742172084, 'CompletedOn': 1694742174382}, 'ResponseMetadata': {'RequestId': '6c8e04c3-61b3-4508-be46-e4e3da45e48e', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:54 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '1538', 'connection': 'keep-alive', 'x-amzn-requestid': '6c8e04c3-61b3-4508-be46-e4e3da45e48e'}, 'RetryAttempts': 0}}
+[0m21:42:54.619490 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:54.620126 [debug] [Thread-1  ]: SQL status: OK in 4.0 seconds
+[0m21:42:54.624355 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.gold_nyctaxi_distance_metrics (execute): 21:42:47.606057 => 21:42:54.623930
+[0m21:42:54.624999 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_distance_metrics: ROLLBACK
+[0m21:42:54.625525 [debug] [Thread-1  ]: Glue adapter: NotImplemented: rollback
+[0m21:42:54.626028 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_distance_metrics: Close
+[0m21:42:54.626536 [debug] [Thread-1  ]: Glue adapter: NotImplemented: close
+[0m21:42:54.627453 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcaccf39790>]}
+[0m21:42:54.628195 [info ] [Thread-1  ]: 3 of 4 OK created sql table model dbt_nyc_metrics.gold_nyctaxi_distance_metrics  [[32mOK[0m in 7.03s]
+[0m21:42:54.629033 [debug] [Thread-1  ]: Finished running node model.dbt_taxi_demo.gold_nyctaxi_distance_metrics
+[0m21:42:54.629706 [debug] [Thread-1  ]: Began running node model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics
+[0m21:42:54.630417 [info ] [Thread-1  ]: 4 of 4 START sql table model dbt_nyc_metrics.gold_nyctaxi_passengers_metrics ... [RUN]
+[0m21:42:54.631422 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.dbt_taxi_demo.gold_nyctaxi_distance_metrics, now model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics)
+[0m21:42:54.631985 [debug] [Thread-1  ]: Began compiling node model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics
+[0m21:42:54.635596 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"
+[0m21:42:54.636530 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics (compile): 21:42:54.632367 => 21:42:54.636283
+[0m21:42:54.636988 [debug] [Thread-1  ]: Began executing node model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics
+[0m21:42:54.639573 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m21:42:54.821255 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:42:54.999121 [debug] [Thread-1  ]: Glue adapter: An error occurred (EntityNotFoundException) when calling the GetTable operation: Entity Not Found
+[0m21:42:55.001296 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"
+[0m21:42:55.002031 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */
+drop table if exists dbt_nyc_metrics.gold_nyctaxi_passengers_metrics
+[0m21:42:55.074827 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:55.075744 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:55.755659 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:55.756626 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:55.757421 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:55.758277 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */
+drop table if exists dbt_nyc_metrics.gold_nyctaxi_passengers_metrics''')
+[0m21:42:57.115041 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 23, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_passengers_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_passengers_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 23, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742175876, 'CompletedOn': 1694742176242}, 'ResponseMetadata': {'RequestId': '7ac6fb74-3dc7-4ca1-8cc4-583d9bd754f1', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:57 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '924', 'connection': 'keep-alive', 'x-amzn-requestid': '7ac6fb74-3dc7-4ca1-8cc4-583d9bd754f1'}, 'RetryAttempts': 0}}
+[0m21:42:57.116087 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:42:57.116960 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_passengers_metrics", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:42:57.117875 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 23, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_passengers_metrics\'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics\\"} */\\ndrop table if exists dbt_nyc_metrics.gold_nyctaxi_passengers_metrics", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 23, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742175876, 'CompletedOn': 1694742176242}, 'ResponseMetadata': {'RequestId': '7ac6fb74-3dc7-4ca1-8cc4-583d9bd754f1', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:42:57 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '924', 'connection': 'keep-alive', 'x-amzn-requestid': '7ac6fb74-3dc7-4ca1-8cc4-583d9bd754f1'}, 'RetryAttempts': 0}}
+[0m21:42:57.118623 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:42:57.119366 [debug] [Thread-1  ]: SQL status: OK in 2.0 seconds
+[0m21:42:57.129638 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"
+[0m21:42:57.130621 [debug] [Thread-1  ]: Glue adapter: NotImplemented: add_begin_query
+[0m21:42:57.131150 [debug] [Thread-1  ]: Using glue connection "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"
+[0m21:42:57.131689 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics: /* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */
+
+  
+    create table dbt_nyc_metrics.gold_nyctaxi_passengers_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_passengers_metrics/'
+	
+	as
+	SELECT (avg_total_amount/avg_passenger_count) as avg_cost_per_passenger
+, (avg_duration/avg_passenger_count) as avg_duration_per_passenger
+, (avg_trip_distance/avg_passenger_count) as avg_trip_distance_per_passenger
+, year
+, month 
+, type 
+FROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  
+[0m21:42:57.205986 [debug] [Thread-1  ]: Glue adapter: GlueConnection _init_session called
+[0m21:42:57.206753 [debug] [Thread-1  ]: Glue adapter: GlueConnection session_id : GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90
+[0m21:42:57.893027 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute called
+[0m21:42:57.893974 [debug] [Thread-1  ]: Glue adapter: GlueCursor remove_comments_header called
+[0m21:42:57.894766 [debug] [Thread-1  ]: Glue adapter: GlueCursor add_end_space_if_single_quote called
+[0m21:42:57.895674 [debug] [Thread-1  ]: Glue adapter: client : SqlWrapper2.execute('''/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */
+
+  
+    create table dbt_nyc_metrics.gold_nyctaxi_passengers_metrics
+  using PARQUET
+	
+	
+	
+	LOCATION 's3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_passengers_metrics/'
+	
+	as
+	SELECT (avg_total_amount/avg_passenger_count) as avg_cost_per_passenger
+, (avg_duration/avg_passenger_count) as avg_duration_per_passenger
+, (avg_trip_distance/avg_passenger_count) as avg_trip_distance_per_passenger
+, year
+, month 
+, type 
+FROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics
+  ''')
+[0m21:43:00.395746 [debug] [Thread-1  ]: Glue adapter: {'Statement': {'Id': 26, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */\n\n  \n    create table dbt_nyc_metrics.gold_nyctaxi_passengers_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_passengers_metrics/\'\n\t\n\tas\n\tSELECT (avg_total_amount/avg_passenger_count) as avg_cost_per_passenger\n, (avg_duration/avg_passenger_count) as avg_duration_per_passenger\n, (avg_trip_distance/avg_passenger_count) as avg_trip_distance_per_passenger\n, year\n, month \n, type \nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_passengers_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_passengers_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_total_amount/avg_passenger_count) as avg_cost_per_passenger\\n, (avg_duration/avg_passenger_count) as avg_duration_per_passenger\\n, (avg_trip_distance/avg_passenger_count) as avg_trip_distance_per_passenger\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 26, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742178013, 'CompletedOn': 1694742180274}, 'ResponseMetadata': {'RequestId': '1f52d64a-ed5c-486c-8e8b-aa4ae7fa1b61', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:43:00 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '1850', 'connection': 'keep-alive', 'x-amzn-requestid': '1f52d64a-ed5c-486c-8e8b-aa4ae7fa1b61'}, 'RetryAttempts': 0}}
+[0m21:43:00.396427 [debug] [Thread-1  ]: Glue adapter: status = ok
+[0m21:43:00.396952 [debug] [Thread-1  ]: Glue adapter: chunks: ['{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_passengers_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_passengers_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_total_amount/avg_passenger_count) as avg_cost_per_passenger\\n, (avg_duration/avg_passenger_count) as avg_duration_per_passenger\\n, (avg_trip_distance/avg_passenger_count) as avg_trip_distance_per_passenger\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}', '{"type": "results", "rowcount": 0, "results": [], "description": []}']
+[0m21:43:00.397550 [debug] [Thread-1  ]: Glue adapter: response: {'Statement': {'Id': 26, 'Code': 'SqlWrapper2.execute(\'\'\'/* {"app": "dbt", "dbt_version": "1.6.1", "profile_name": "dbt_taxi_demo", "target_name": "dev", "node_id": "model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics"} */\n\n  \n    create table dbt_nyc_metrics.gold_nyctaxi_passengers_metrics\n  using PARQUET\n\t\n\t\n\t\n\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_passengers_metrics/\'\n\t\n\tas\n\tSELECT (avg_total_amount/avg_passenger_count) as avg_cost_per_passenger\n, (avg_duration/avg_passenger_count) as avg_duration_per_passenger\n, (avg_trip_distance/avg_passenger_count) as avg_trip_distance_per_passenger\n, year\n, month \n, type \nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\n  \'\'\')', 'State': 'AVAILABLE', 'Output': {'Data': {'TextPlain': '{"type": "results", "sql": "/* {\\"app\\": \\"dbt\\", \\"dbt_version\\": \\"1.6.1\\", \\"profile_name\\": \\"dbt_taxi_demo\\", \\"target_name\\": \\"dev\\", \\"node_id\\": \\"model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics\\"} */\\n\\n  \\n    create table dbt_nyc_metrics.gold_nyctaxi_passengers_metrics\\n  using PARQUET\\n\\t\\n\\t\\n\\t\\n\\tLOCATION \'s3://ikoch-lakeformation-db/nyctaxi-data-out//dbt_nyc_metrics/gold_nyctaxi_passengers_metrics/\'\\n\\t\\n\\tas\\n\\tSELECT (avg_total_amount/avg_passenger_count) as avg_cost_per_passenger\\n, (avg_duration/avg_passenger_count) as avg_duration_per_passenger\\n, (avg_trip_distance/avg_passenger_count) as avg_trip_distance_per_passenger\\n, year\\n, month \\n, type \\nFROM dbt_nyc_metrics.silver_nyctaxi_avg_metrics\\n  ", "schema": null, "results": null}\n{"type": "results", "rowcount": 0, "results": [], "description": []}'}, 'ExecutionCount': 26, 'Status': 'ok'}, 'Progress': 1.0, 'StartedOn': 1694742178013, 'CompletedOn': 1694742180274}, 'ResponseMetadata': {'RequestId': '1f52d64a-ed5c-486c-8e8b-aa4ae7fa1b61', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Fri, 15 Sep 2023 01:43:00 GMT', 'content-type': 'application/x-amz-json-1.1', 'content-length': '1850', 'connection': 'keep-alive', 'x-amzn-requestid': '1f52d64a-ed5c-486c-8e8b-aa4ae7fa1b61'}, 'RetryAttempts': 0}}
+[0m21:43:00.398084 [debug] [Thread-1  ]: Glue adapter: GlueCursor execute successfully
+[0m21:43:00.398528 [debug] [Thread-1  ]: SQL status: OK in 3.0 seconds
+[0m21:43:00.401559 [debug] [Thread-1  ]: Timing info for model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics (execute): 21:42:54.637308 => 21:43:00.401322
+[0m21:43:00.402070 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics: ROLLBACK
+[0m21:43:00.402526 [debug] [Thread-1  ]: Glue adapter: NotImplemented: rollback
+[0m21:43:00.402959 [debug] [Thread-1  ]: On model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics: Close
+[0m21:43:00.403399 [debug] [Thread-1  ]: Glue adapter: NotImplemented: close
+[0m21:43:00.404283 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0c3bafda-e9ba-4457-bc54-78df17389960', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcaccec4730>]}
+[0m21:43:00.405006 [info ] [Thread-1  ]: 4 of 4 OK created sql table model dbt_nyc_metrics.gold_nyctaxi_passengers_metrics  [[32mOK[0m in 5.77s]
+[0m21:43:00.406021 [debug] [Thread-1  ]: Finished running node model.dbt_taxi_demo.gold_nyctaxi_passengers_metrics
+[0m21:43:00.408322 [debug] [MainThread]: On master: ROLLBACK
+[0m21:43:00.408790 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:43:00.409203 [debug] [MainThread]: Glue adapter: opening a new glue connection for thread : (2268, 140704330588992)
+[0m21:43:00.409596 [debug] [MainThread]: Glue adapter: GlueConnection connect called
+[0m21:43:00.409984 [debug] [MainThread]: Glue adapter: No session present, starting one
+[0m21:43:00.410423 [debug] [MainThread]: Glue adapter: GlueConnection _start_session called
+[0m21:43:01.067931 [debug] [MainThread]: Glue adapter: NotImplemented: rollback
+[0m21:43:01.068810 [debug] [MainThread]: Glue adapter: NotImplemented: add_begin_query
+[0m21:43:01.069492 [debug] [MainThread]: Glue adapter: NotImplemented: commit
+[0m21:43:01.070126 [debug] [MainThread]: On master: ROLLBACK
+[0m21:43:01.070664 [debug] [MainThread]: Glue adapter: NotImplemented: rollback
+[0m21:43:01.071180 [debug] [MainThread]: On master: Close
+[0m21:43:01.071714 [debug] [MainThread]: Glue adapter: NotImplemented: close
+[0m21:43:01.072788 [debug] [MainThread]: Glue adapter: cleanup called
+[0m21:43:01.073362 [debug] [MainThread]: Glue adapter: GlueConnection close_session called
+[0m21:43:01.221305 [debug] [MainThread]: Glue adapter: [elapsed 0.0s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in READY state
+[0m21:43:02.635481 [debug] [MainThread]: Glue adapter: [elapsed 1.4112749099731445s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:03.863911 [debug] [MainThread]: Glue adapter: [elapsed 2.6377170085906982s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:05.063937 [debug] [MainThread]: Glue adapter: [elapsed 3.8429830074310303s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:06.265578 [debug] [MainThread]: Glue adapter: [elapsed 5.0723700523376465s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:08.030689 [debug] [MainThread]: Glue adapter: [elapsed 6.2840259075164795s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:09.273693 [debug] [MainThread]: Glue adapter: [elapsed 8.069175004959106s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:10.499746 [debug] [MainThread]: Glue adapter: [elapsed 9.277466058731079s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:11.692932 [debug] [MainThread]: Glue adapter: [elapsed 10.497775077819824s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:12.903195 [debug] [MainThread]: Glue adapter: [elapsed 11.692429065704346s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:14.093482 [debug] [MainThread]: Glue adapter: [elapsed 12.897252082824707s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:15.305668 [debug] [MainThread]: Glue adapter: [elapsed 14.09853196144104s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:16.507887 [debug] [MainThread]: Glue adapter: [elapsed 15.305028915405273s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:17.692236 [debug] [MainThread]: Glue adapter: [elapsed 16.49985098838806s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:18.939303 [debug] [MainThread]: Glue adapter: [elapsed 17.68692708015442s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:20.154613 [debug] [MainThread]: Glue adapter: [elapsed 18.945698022842407s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:21.379146 [debug] [MainThread]: Glue adapter: [elapsed 20.15672492980957s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:22.579062 [debug] [MainThread]: Glue adapter: [elapsed 21.386518001556396s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:23.782297 [debug] [MainThread]: Glue adapter: [elapsed 22.570301055908203s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:24.957851 [debug] [MainThread]: Glue adapter: [elapsed 23.778373956680298s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:26.138740 [debug] [MainThread]: Glue adapter: [elapsed 24.939043045043945s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:27.398361 [debug] [MainThread]: Glue adapter: [elapsed 26.1864070892334s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:28.598328 [debug] [MainThread]: Glue adapter: [elapsed 27.397361040115356s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:29.776478 [debug] [MainThread]: Glue adapter: [elapsed 28.583281993865967s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:31.009436 [debug] [MainThread]: Glue adapter: [elapsed 29.774415016174316s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:32.187153 [debug] [MainThread]: Glue adapter: [elapsed 30.989146947860718s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:33.435219 [debug] [MainThread]: Glue adapter: [elapsed 32.187255859375s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:34.656786 [debug] [MainThread]: Glue adapter: [elapsed 33.44054913520813s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:35.864726 [debug] [MainThread]: Glue adapter: [elapsed 34.642398834228516s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:37.053961 [debug] [MainThread]: Glue adapter: [elapsed 35.858476877212524s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:38.266204 [debug] [MainThread]: Glue adapter: [elapsed 37.04591202735901s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:39.461289 [debug] [MainThread]: Glue adapter: [elapsed 38.26173210144043s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:40.740757 [debug] [MainThread]: Glue adapter: [elapsed 39.460505962371826s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:41.950016 [debug] [MainThread]: Glue adapter: [elapsed 40.735864877700806s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:43.164216 [debug] [MainThread]: Glue adapter: [elapsed 41.94804811477661s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:44.363423 [debug] [MainThread]: Glue adapter: [elapsed 43.15143799781799s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:45.552639 [debug] [MainThread]: Glue adapter: [elapsed 44.35634183883667s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:46.749692 [debug] [MainThread]: Glue adapter: [elapsed 45.54988694190979s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:47.937207 [debug] [MainThread]: Glue adapter: [elapsed 46.74556088447571s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:50.525711 [debug] [MainThread]: Glue adapter: [elapsed 49.33033990859985s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:51.729771 [debug] [MainThread]: Glue adapter: [elapsed 50.507826805114746s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:52.925270 [debug] [MainThread]: Glue adapter: [elapsed 51.72029900550842s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:54.117451 [debug] [MainThread]: Glue adapter: [elapsed 52.92437386512756s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:55.284686 [debug] [MainThread]: Glue adapter: [elapsed 54.09890913963318s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:56.486238 [debug] [MainThread]: Glue adapter: [elapsed 55.27824091911316s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:57.685472 [debug] [MainThread]: Glue adapter: [elapsed 56.46956396102905s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:43:58.962576 [debug] [MainThread]: Glue adapter: [elapsed 57.697465896606445s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-5b35eace-bc99-41a2-8d4c-8a15c0629e90 in STOPPING state
+[0m21:44:00.108711 [debug] [MainThread]: Glue adapter: GlueConnection close_session called
+[0m21:44:00.286578 [debug] [MainThread]: Glue adapter: [elapsed 0.0s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in READY state
+[0m21:44:01.703222 [debug] [MainThread]: Glue adapter: [elapsed 1.461453914642334s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:02.903392 [debug] [MainThread]: Glue adapter: [elapsed 2.6727280616760254s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:04.101816 [debug] [MainThread]: Glue adapter: [elapsed 3.848306179046631s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:05.290949 [debug] [MainThread]: Glue adapter: [elapsed 5.055998086929321s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:06.510177 [debug] [MainThread]: Glue adapter: [elapsed 6.253106117248535s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:08.345881 [debug] [MainThread]: Glue adapter: [elapsed 7.473705053329468s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:09.551291 [debug] [MainThread]: Glue adapter: [elapsed 9.302966833114624s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:10.752515 [debug] [MainThread]: Glue adapter: [elapsed 10.50688910484314s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:11.969761 [debug] [MainThread]: Glue adapter: [elapsed 11.718001127243042s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:13.179271 [debug] [MainThread]: Glue adapter: [elapsed 12.928858041763306s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:14.385490 [debug] [MainThread]: Glue adapter: [elapsed 14.148435115814209s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:15.594505 [debug] [MainThread]: Glue adapter: [elapsed 15.348222017288208s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:16.816807 [debug] [MainThread]: Glue adapter: [elapsed 16.569475889205933s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:18.039025 [debug] [MainThread]: Glue adapter: [elapsed 17.788031816482544s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:19.241285 [debug] [MainThread]: Glue adapter: [elapsed 19.006365060806274s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:20.473571 [debug] [MainThread]: Glue adapter: [elapsed 20.215641975402832s - calling stop_session for GlueInteractiveSessionRole-dbt-glue-1ba387eb-295b-47ce-83ad-61e809030c23 in STOPPING state
+[0m21:44:21.611829 [info ] [MainThread]: 
+[0m21:44:21.612822 [info ] [MainThread]: Finished running 4 table models in 0 hours 2 minutes and 48.84 seconds (168.84s).
+[0m21:44:21.614999 [debug] [MainThread]: Command end result
+[0m21:44:21.631979 [info ] [MainThread]: 
+[0m21:44:21.632633 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:44:21.633162 [info ] [MainThread]: 
+[0m21:44:21.633730 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[0m21:44:21.634588 [debug] [MainThread]: Command `dbt run` succeeded at 21:44:21.634431 after 170.89 seconds
+[0m21:44:21.635139 [debug] [MainThread]: Glue adapter: cleanup called
+[0m21:44:21.635609 [debug] [MainThread]: Glue adapter: GlueConnection close_session called
+[0m21:44:21.701041 [debug] [MainThread]: Glue adapter: GlueConnection close_session called
+[0m21:44:21.761895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcac77d0280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacaa9d9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcacaa9d310>]}
+[0m21:44:21.762913 [debug] [MainThread]: Flushing usage events
