@@ -5,12 +5,6 @@ Welcome to your new dbt project!
 
 ### Using the starter project
 
-0. Prerequisit: export variables
-```bash
-$ export DBT_ROLE_ARN="arn:aws:iam::$(aws sts get-caller-identity --query "Account" --output text):role/GlueInteractiveSessionRole"
-$ export DBT_S3_LOCATION="s3://aws-dbt-glue-datalake-$(aws sts get-caller-identity --query "Account" --output text)-us-east-1/"
-```
-
 1. Ensure your profile is setup correctly from the command line:
 ```bash
 $ dbt debug --profiles-dir profile
