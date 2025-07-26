@@ -1,0 +1,54 @@
+version: 2
+
+sources:
+  - name: data_source
+    schema: nyctaxi
+
+    # tables:
+    #   - name: tripdata
+    tables:
+      - name: yellow_tripdata # The name you'll reference in your dbt models
+        external:
+          location: "s3://nyc-tlc/trip data/yellow/" # The S3 prefix for the yellow taxi data
+          using: "hive" # Or 'delta', 'hudi', depending on format and partitioning
+          file_format: "parquet"
+          row_format: "DELIMITED" # Not strictly needed for Parquet, but good to have a placeholder
+          columns: # Define a subset of columns or all of them
+            - name: VendorID
+              data_type: integer
+            - name: tpep_pickup_datetime
+              data_type: timestamp
+            - name: tpep_dropoff_datetime
+              data_type: timestamp
+            - name: passenger_count
+              data_type: integer
+            - name: trip_distance
+              data_type: double
+            - name: RatecodeID
+              data_type: integer
+            - name: store_and_fwd_flag
+              data_type: string
+            - name: PULocationID
+              data_type: integer
+            - name: DOLocationID
+              data_type: integer
+            - name: payment_type
+              data_type: integer
+            - name: fare_amount
+              data_type: double
+            - name: extra
+              data_type: double
+            - name: mta_tax
+              data_type: double
+            - name: tip_amount
+              data_type: double
+            - name: tolls_amount
+              data_type: double
+            - name: improvement_surcharge
+              data_type: double
+            - name: total_amount
+              data_type: double
+            - name: congestion_surcharge
+              data_type: double
+            - name: Airport_fee
+              data_type: double

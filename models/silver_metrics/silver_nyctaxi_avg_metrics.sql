@@ -11,8 +11,8 @@ WITH source_avg as (
     , year(CAST(tpep_dropoff_datetime as timestamp)) as year
     , month(CAST(tpep_dropoff_datetime as timestamp)) as month
     , payment_type as type
-    FROM {{ source('data_source', 'tripdata') }}
-    --WHERE year = "2022"
+    FROM {{ source('data_source', 'yellow_tripdata') }}
+    WHERE year = "2024"
     WHERE tpep_dropoff_datetime is not null
     GROUP BY 5, 6, 7
     --GROUP BY 5
